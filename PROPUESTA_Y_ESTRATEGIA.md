@@ -35,7 +35,7 @@ La inversión propuesta contempla la adaptación de identidad y narrativa a una 
 - Selector ES/EN que actualiza encabezados, textos, etiquetas, placeholder, `lang`, título y descripción SEO, con preferencia guardada en el navegador.
 - Diseño adaptable, navegación móvil, búsqueda, filtros, diálogo modal accesible, foco visible y `prefers-reduced-motion`.
 - Open Graph, descripción y color de tema; enlaces externos con `rel="noopener"`.
-- Workflow de GitHub Actions para publicar desde `main`. No se requiere Vercel ni infraestructura serverless.
+- GitHub Pages sirve la raíz de `main` directamente, sin proceso de compilación ni workflow adicional. No se requiere Vercel ni infraestructura serverless.
 
 ## Muestra y validación pendiente con cliente
 
@@ -45,11 +45,10 @@ La inversión propuesta contempla la adaptación de identidad y narrativa a una 
 4. Sustituir nombres/fotos referenciales de productos por artículos disponibles, variantes, tallas, precios, moneda, inventario, envíos y política de cambios; usar el checkout de la tienda oficial.
 5. Confirmar fecha, sede, categorías, galerías y formulario vigente de Premios de la Calle. La convocatoria del sitio consultado está rotulada 2025, por tanto no se reproduce como convocatoria actual.
 6. Validar correo de contacto por área, redes oficiales, identidad visual y año de fundación con RB Music.
-7. Configurar GitHub Pages en **Settings → Pages → Build and deployment → Source: GitHub Actions**. El workflow publica desde la raíz cada vez que hay un cambio en `main`; revisar **Actions** y abrir la URL cuando el despliegue termine.
+7. GitHub Pages está configurado en **Settings → Pages → Build and deployment → Deploy from a branch → main → /(root)**. GitHub reconstruye desde la raíz de `main`; esperar unos minutos después de cambios antes de probar la URL.
 
 ## Cómo revisar
 
-1. En GitHub abre **Actions** y selecciona **Publish static site to GitHub Pages**.
-2. Comprueba que la última ejecución en `main` terminó correctamente.
-3. Abre [https://juliocastro0357-dot.github.io/RBMusic/](https://juliocastro0357-dot.github.io/RBMusic/) y revisa navegación, selector de idioma, búsqueda/filtros, modal de artista y enlaces externos en móvil y escritorio.
-4. Antes del lanzamiento comercial, completa las validaciones y assets pendientes anteriores.
+1. GitHub Pages publica automáticamente la rama `main` desde `/(root)`.
+2. Espera unos minutos tras los cambios iniciales y abre [https://juliocastro0357-dot.github.io/RBMusic/](https://juliocastro0357-dot.github.io/RBMusic/) para revisar navegación, selector de idioma, búsqueda/filtros, modales y enlaces en móvil/escritorio.
+3. Antes del lanzamiento comercial, completa las validaciones y assets pendientes anteriores.
