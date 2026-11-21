@@ -15,7 +15,7 @@
 
 ## Dirección y arquitectura
 
-La propuesta usa una estética editorial nocturna inspirada en concierto: negro carbón, papel cálido y lima eléctrica; tipografía condensada para titulares, fotografía a sangre, gran jerarquía y animación discreta. La navegación lleva a seis objetivos: elenco, música, movimiento, premios, shop y contacto.
+La propuesta usa una estética editorial nocturna inspirada en concierto: negro carbón, oro cálido y marfil, siguiendo los logotipos oficiales compartidos por el cliente; tipografía condensada para titulares, fotografía a sangre, gran jerarquía y animación discreta. La navegación lleva a seis objetivos: elenco, música, movimiento, premios, shop y contacto.
 
 - **RB Music:** hero de marca, enlaces directos y bloque de historia/autoridad.
 - **Artistas:** selección visible con filtros por categoría, búsqueda rápida y ficha modal. La taxonomía es funcional para la muestra, no atribuye género definitivo a cada artista.
