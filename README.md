@@ -4,7 +4,9 @@ Sitio editorial bilingüe ES/EN para RB Music, creado con HTML, CSS y JavaScript
 
 ## Publicación
 
-El workflow de GitHub Actions despliega la raíz del repositorio en GitHub Pages al hacer push a `main`. En el repositorio, habilita **Settings → Pages → Build and deployment → Source: GitHub Actions**. Después revisa el estado en **Actions**. URL esperada: https://juliocastro0357-dot.github.io/RBMusic/ (GitHub puede tardar unos minutos en servir el primer despliegue).
+GitHub Pages publica la raíz de la rama `main` directamente. La fuente se configura en **Settings → Pages → Build and deployment → Deploy from a branch → main → /(root)**. GitHub Pages reconstruye el sitio al actualizar `main`.
+
+URL de prueba: https://juliocastro0357-dot.github.io/RBMusic/
 
 ## Archivos
 
@@ -12,7 +14,6 @@ El workflow de GitHub Actions despliega la raíz del repositorio en GitHub Pages
 - `styles.css`: sistema visual responsive, foco accesible y movimiento reducido.
 - `app.js`: traducción ES/EN, directorio filtrable/buscable y catálogo estático.
 - `PROPUESTA_Y_ESTRATEGIA.md`: investigación, decisiones, fuentes y lista de assets pendientes.
-- `.github/workflows/pages.yml`: publicación automática en Pages.
 
 ## Datos de demostración
 
